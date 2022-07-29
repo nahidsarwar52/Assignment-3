@@ -1,0 +1,66 @@
+.carousel-caption {
+    top: 35%;
+}
+
+.join-section {
+    min-height: 200px;
+}
+
+#banner-image {
+    filter: brightness(50%);
+}
+
+@media only screen and (max-width:991px) {
+    #companies {
+        display: none;
+    }
+
+    .btn-navbar {
+        display: none;
+    }
+
+    #joining-text {
+        text-align: center;
+    }
+
+    #joining-btn {
+        text-align: center;
+    }
+
+    .join-section {
+        min-height: 300px;
+    }
+
+    #toggle-btn {
+        justify-content: end;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    #companies {
+        display: none;
+    }
+
+    .btn-navbar {
+        display: none;
+    }
+
+    #toggle-btn {
+        justify-content: end;
+    }
+
+    .courses-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-controls h1 {
+        visibility: visible;
+        display: block !important;
+    }
+
+    .carousel-caption {
+        top: 5%;
+    }
+}
